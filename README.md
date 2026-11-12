@@ -1,0 +1,1 @@
+This Project reads the information on cars in CarInfoDatabase, then uses a random forest regression model to predict what a cars MPG would be based on its stats. There are 4 screenshots included to show the function of the project. 
