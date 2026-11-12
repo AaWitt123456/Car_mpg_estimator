@@ -9,7 +9,7 @@ from sklearn.pipeline import make_pipeline
 
 
 DATABASE_PATH = (
-        Path(__file__).resolve().parent / ".." / ".." / "SQLDatabase" / "CarInfoDatabase.db"
+        Path(__file__).resolve().parent / "CarInfoDatabase.db"
 ).resolve()
 
 FEATURES = [

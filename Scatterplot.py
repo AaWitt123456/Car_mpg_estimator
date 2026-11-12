@@ -11,7 +11,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 def show_scatterplot():
     database_path = (
-            Path(__file__).resolve().parent / ".." / ".." / "SQLDatabase" / "CarInfoDatabase.db"
+            Path(__file__).resolve().parent / "CarInfoDatabase.db"
     ).resolve()
 
     try:
